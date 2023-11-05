@@ -1,0 +1,111 @@
+
+
+@charset "ISO-8859-1";
+
+
+
+
+
+
+
+.hexagon-container {
+    display: flex;
+  
+    margin-left: 5px; /* Sử dụng margin-left để di chuyển sang phải */
+    
+}
+
+.hexagon {
+    width: 300px;
+    height: 300px;
+    background-color: #3498db;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+   /* Đảm bảo chúng nằm liền kề nhau */
+
+   justify-content: center; /* Canh giữa theo chiều ngang */
+   align-items: center; /* Canh giữa theo chiều dọc */
+   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); /* Điều chỉnh giá trị rgba() theo ý muốn */
+
+}
+
+.hexagon img {
+    width: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+    height: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+     position: relative;
+}
+
+
+.hexagon1 img {
+    width: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+    height: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+}
+
+
+.hexagon2 img {
+    /* Điều chỉnh vị trí cho hình ảnh thứ hai */
+   
+    width: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+    height: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+}
+
+.hexagon3 img {
+    /* Điều chỉnh vị trí cho hình ảnh thứ hai */
+   
+    width: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+    height: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+}
+.hexagon4 img {
+    /* Điều chỉnh vị trí cho hình ảnh thứ hai */
+   
+    width: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+    height: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+}
+.hexagon5 img {
+    /* Điều chỉnh vị trí cho hình ảnh thứ hai */
+   
+    width: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+    height: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+}
+.hexagon6 img {
+    /* Điều chỉnh vị trí cho hình ảnh thứ hai */
+   
+    width: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+    height: 100%; /* Điều chỉnh kích thước tối đa của ảnh */
+}
+
+
+
+
+.hexagon1 {
+    background-color: #e74c3c;
+    margin-right: 5px;
+}
+
+.hexagon2 {
+    background-color: #27ae60;
+    margin-left: 305px; /* Sử dụng margin-left để di chuyển sang phải */
+    margin-top: -300px;
+}
+
+.hexagon3 {
+    background-color: aquamarine;
+    margin-left: 150px; /* Sử dụng margin-left để di chuyển sang phải */ 
+    margin-top: -70px;
+}
+
+.hexagon4    {
+    background-color:blue;
+    margin-left: 460px; /* Sử dụng margin-left để di chuyển sang phải */
+    margin-top: -300px; 
+}
+.hexagon5    {
+    background-color: #f39c12;
+    margin-left: 610px; /* Sử dụng margin-left để di chuyển sang phải */
+    margin-top: -530px;  
+}
+
+
+
+/* thay đổi chiều cao section4 */
+
+
